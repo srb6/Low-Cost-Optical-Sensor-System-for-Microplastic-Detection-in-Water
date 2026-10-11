@@ -47,7 +47,7 @@ Electronics and Communication Engineering | Embedded Systems | Optical Sensing |
 
 Watch the working prototype of our Low-Cost Optical Sensor System for Microplastic Detection in Water.
 
-**Video demonstration:** [Watch the project on LinkedIn]([PASTE_YOUR_LINKEDIN_POST_URL_HERE](https://www.linkedin.com/posts/bomman_miniproject-ece-embeddedsystems-ugcPost-7463580926405582848-fIcb/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7463581091191279616&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEi4jwgBphgBbfVAa4hYV59VTQ1KOZiFI7U&utm_campaign=copy_link))
+**Video demonstration:** [Watch the project on LinkedIn](https://www.linkedin.com/posts/bomman_miniproject-ece-embeddedsystems-ugcPost-7463580926405582848-fIcb/?highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7463581091191279616&highlightedUpdateType=SOCIAL_SHARE&origin=SOCIAL_SHARE&utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAEi4jwgBphgBbfVAa4hYV59VTQ1KOZiFI7U&utm_campaign=copy_link)
 
 ## Disclaimer
 The system is an experimental prototype. Its ability to distinguish microplastics from other suspended particles and identify polymer types requires appropriate experimental validation.
