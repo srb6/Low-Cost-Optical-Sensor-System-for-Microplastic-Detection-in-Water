@@ -1,0 +1,2 @@
+# Low-Cost-Optical-Sensor-System-for-Microplastic-Detection-in-Water
+This project proposes a low-cost optical sensor system for detecting microplastics in water using UV, visible, and NIR LEDs with photodiodes. An ESP32 analyzes light transmission and scattering variations to estimate contamination levels, enabling portable, real-time water quality screening. Calibration is required for reliable results.
