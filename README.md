@@ -1,37 +1,39 @@
 # Low-Cost Optical Sensor System for Microplastic Detection in Water
 
-## Overview
-This project aims to develop a low-cost, portable optical sensor system for detecting microplastic contamination in water using multi-wavelength light sources and photodiode sensors.
+## Project Overview
+This project focuses on developing a low-cost optical sensing system to detect potential microplastic contamination in water. The system uses multiple light sources and photodiode sensors to analyze changes in light transmission and scattering.
 
 ## Objectives
-- Detect the presence of microplastic particles in water.
-- Analyze optical transmission and light scattering.
-- Explore concentration estimation and polymer classification.
-- Implement real-time signal processing using an ESP32 microcontroller.
-- Explore TinyML for optical signal classification.
+- Detect potential microplastic contamination in water.
+- Measure optical transmission and scattering.
+- Analyze sensor readings under different water sample conditions.
+- Develop an embedded sensing prototype using the ESP32.
 
 ## Hardware Components
 - ESP32 microcontroller
-- UV, white, and infrared LEDs
+- UV LED
+- White LED
+- Infrared LED
 - BPW34 photodiodes
 - LM358 operational amplifier
-- ADS1115 analog-to-digital converter
+- ADS1115 16-bit ADC
 - Water sample chamber
 - Supporting electronic components
 
-## Technologies
+## Working Principle
+The LEDs illuminate the water sample at different wavelengths. Photodiodes measure transmitted and scattered light. The sensor readings are processed by the ESP32 to analyze optical variations between samples.
+
+## Software and Tools
 - Arduino IDE
 - Embedded C/C++
-- Python
-- Machine learning and TinyML
-- TensorFlow Lite for Microcontrollers
+- ESP32 programming
+- Python for data analysis, if applicable
 
-## Repository Contents
-- `README.md` — Project overview and documentation
+## Repository Structure
+- `README.md` — Project overview
 - `docs/` — Project report and presentation
-- `src/` — ESP32 firmware
-- `dataset/` — Optical sensor readings in CSV format
-- `model/` — Trained model files and deployment headers
+- `src/` — ESP32 source code
+- `dataset/` — Collected sensor readings, if available
 
 ## Project Team
 - Sanjeevraj Bommannan M
@@ -39,7 +41,7 @@ This project aims to develop a low-cost, portable optical sensor system for dete
 - Sanjay B
 
 ## Project Domain
-Electronics and Communication Engineering | Embedded Systems | Environmental Monitoring
+Electronics and Communication Engineering | Embedded Systems | Optical Sensing | Environmental Monitoring
 
-## Note
-Detection accuracy, concentration estimation, and polymer classification should be validated experimentally before being treated as established capabilities.
+## Disclaimer
+The system is an experimental prototype. Its ability to distinguish microplastics from other suspended particles and identify polymer types requires appropriate experimental validation.
